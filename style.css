@@ -73,7 +73,7 @@ footer {
     margin: 0 auto;
     border: 1px solid #ddd;
     text-align: center;
-    background: url(/bg.png)no-repeat center;
+    background: url(./bg.png)no-repeat center;
     background-size: cover;
 }
 
