@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'BMHANNAPro';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.0/BMHANNAPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BMHANNAAir';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/BMHANNAAir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'BMHANNAAir';
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    line-height: 1;
+    background: #f1f1f1;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+p {
+    word-break: keep-all;
+}
+
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+header {
+    z-index: 3;
+    position: relative;
+}
+
+main {
+    z-index: 2;
+    position: relative;
+}
+
+footer {
+    z-index: 1;
+    position: relative;
+}
+
+/* style */
+
+.container .inner {
+    width: 100%;
+    height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.item-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.item-wrap .item-title h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.item-wrap .item-content .item-input {
+    margin-bottom: 20px;
+}
+
+.item-wrap .item-content .item-input input {
+    height: 35px;
+    resize: none;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.20);
+    padding: 0 15px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.item-wrap .item-content .item-input input:focus {
+    outline: none;
+}
+
+.item-wrap .item-content .item-input button {
+    width: 50px;
+    height: 35px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    background: #fff;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.20);
+    cursor: pointer;
+}
+
+.item-wrap .item-content .item-txt {
+    margin-bottom: 50px;
+}
+
+.item-wrap .item-content .item-txt span {
+    font-size: 25px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.item-wrap .item-content .itme-result span {
+    font-size: 40px;
+    color: #333;
+}
+
+.item-wrap .item-content .item-reset button {
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    background: #fff;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.20);
+    cursor: pointer;
+}

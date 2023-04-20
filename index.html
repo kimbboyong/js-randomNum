@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="inner">
+            <div class="item-wrap">
+                <div class="item-title">
+                    <h2>숫자 맞추기 게임</h2>
+                </div>
+
+                <div class="item-content">
+                    <div class="item-input">
+                        <input id="input-number" type="number" onkeyup="enterKey();">
+                        <button id="input-button" type="button">확인</button>
+                    </div>
+
+                    <div class="item-txt">
+                        <div class="txt-result">
+                            <span>결과값: <span id="result-area"></span> </span>
+                        </div>
+                        <div class="txt-chances">
+                            <span>남은횟수: <span id="chances-area">5</span> </span>
+                        </div>
+                    </div>
+
+                    <div class="item-reset">
+                        <button id="reset-btn">다시시작</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+
+</html>
