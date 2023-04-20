@@ -35,7 +35,7 @@ function play() {
     let inputVal = userInput.value;
 
     if (inputVal < 1 || inputVal > 100) {
-        userResult.textContent = "1과 100사이 숫자를 입력하삼";
+        userResult.textContent = "1과 50사이 숫자를 입력하삼";
         return;
     }
 
