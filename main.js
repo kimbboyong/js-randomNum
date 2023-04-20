@@ -10,7 +10,7 @@
 
 
 let gameNum = 0;
-let chances = 5;
+let chances = 10;
 let userInput = document.getElementById('input-number');
 let userResult = document.getElementById('result-area');
 let chancesTxt = document.getElementById('chances-area');
@@ -20,8 +20,9 @@ let gameOver = false;
 let history = [];
 
 function randomNum() {
-    gameNum = Math.floor(Math.random() * 25) + 1;
+    gameNum = Math.floor(Math.random() * 50) + 1;
     console.log('정답', gameNum);
+
 }
 
 playBtn.addEventListener('click', play);
@@ -51,7 +52,7 @@ function play() {
     } else if (gameNum < inputVal) {
         userResult.textContent = "DOWN!!!"
     } else {
-        userResult.textContent = "정답입니다!"
+        userResult.textContent = "ㅊㅋㅊㅋ!"
         gameOver = true;
     }
 

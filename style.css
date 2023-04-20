@@ -73,6 +73,8 @@ footer {
     margin: 0 auto;
     border: 1px solid #ddd;
     text-align: center;
+    background: url(/bg.png)no-repeat center;
+    background-size: cover;
 }
 
 .item-wrap {
@@ -83,8 +85,9 @@ footer {
 }
 
 .item-wrap .item-title h2 {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 30px;
+    color: ;
 }
 
 .item-wrap .item-content .item-input {
