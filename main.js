@@ -73,7 +73,7 @@ function reset() {
     userResult.textContent = ""
     playBtn.disabled = false;
     gameOver = false;
-    chances = 5;
+    chances = 10;
     chancesTxt.innerHTML = chances;
     randomNum();
 }
